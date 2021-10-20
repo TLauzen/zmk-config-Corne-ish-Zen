@@ -13,7 +13,7 @@
 #define GAMING 1
 #define NUMPAD 2
 #define NUMROW 3
-#define ADJUST 4
+#define ACTION 4
 #define CONFIG 5
 
 #define HYPER LS(LC(LA(LGUI)))
@@ -62,13 +62,13 @@
                         >;
                 };
 
-                adjust_layer {
-                        label = "ADJUST";
+                action_layer {
+                        label = "ACTION";
                         bindings = <
-   &kp F1      &kp F2  &kp F3   &kp F4    &kp F5 &kp F6    &kp F7   &kp F8   &kp F9 &kp F10   &kp F11 &kp F12
-   &kp CAPS    &kp INS &kp HOME &kp PG_UP &none  &none     &kp LEFT &kp DOWN &kp UP &kp RIGHT &none   &none
-   &tog NUMPAD &kp DEL &kp END  &kp PG_DN &none  &none     &none    &none    &none  &none     &none   &none
-                           &kp LGUI &kp LCTL &mo NUMROW    &kp SPC &mo ADJUST &tog GAMING
+	&none 		&kp F1   &kp F2   &kp F3    &kp F4    &kp F5   		&kp F6   &kp F7   &kp F8    &kp F9    &kp F10 	&none
+	&none 		&sk LGUI &sk LALT &sk LCTRL &sk LSHFT &kp INS 		&kp HOME &kp LEFT &kp DOWN  &kp UP 	  &kp RIGHT &none
+	&none 		&kp F11  &kp F12  &kp F13   &kp F14   &kp F15  		&kp END	 &kp F16  &kp PG_DN &kp PG_UP &kp F17	&none
+								  &trans    &trans    &trans 		&trans 	 &trans   &trans
                         >;
                 };
 
