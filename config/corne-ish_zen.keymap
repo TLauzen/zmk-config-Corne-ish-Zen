@@ -85,12 +85,12 @@
 				combo_numlock {
 						timeout-ms = <50>;
 						key-positions = <36 37 38>;
-						bindings = <&to NUMPAD>;
+						bindings = <&tog 1>;
 				};
 				combo_config {
 						timeout-ms = <50>;
 						key-positions = <1 13 25>;
-						bindings = <&to CONFIG>;
+						bindings = <&tog 3>;
 				};
 		};
 };
