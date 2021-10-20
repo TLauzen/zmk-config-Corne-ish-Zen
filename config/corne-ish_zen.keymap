@@ -86,22 +86,22 @@
 				compatible = "zmk,combos";
                 combo_esc {
                         timeout-ms = <50>;
-                        key-positions = <1 2>;
+                        key-positions = <2 3>;
                         bindings = <&kp ESC>;
                 };
                 combo_bksp {
                         timeout-ms = <50>;
-                        key-positions = <9 10>;
+                        key-positions = <8 9>;
                         bindings = <&kp BACKSPACE>;
                 };
 				combo_delete {
 						timeout-ms = <50>;
-						key-positions = <25 26>;
+						key-positions = <26 27>;
 						bindings = <&kp DEL>;
 				};
 				combo_tab{
 						timeout-ms = <50>;
-						key-positions = <33 34>;
+						key-positions = <32 33>;
 						bindings = <&kp TAB>;
 				};
 		};
